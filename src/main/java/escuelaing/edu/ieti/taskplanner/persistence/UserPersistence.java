@@ -3,7 +3,6 @@ import escuelaing.edu.ieti.taskplanner.model.User;
 import java.util.List;
 import org.springframework.stereotype.Service;
 
-
 public interface UserPersistence {
 
     List<User> getAll();
